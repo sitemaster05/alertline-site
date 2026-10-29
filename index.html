@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AlertLine — голосовое оповещение с подтверждением</title>
+  <meta name="description" content="AlertLine обзванивает сотрудников и население через вашего SIP-оператора, проигрывает сообщение и фиксирует, кто подтвердил получение. Работает на вашем Windows-сервере.">
+  <meta name="theme-color" content="#0B1F3F">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <meta property="og:title" content="AlertLine — голосовое оповещение с подтверждением">
+  <meta property="og:description" content="Запуск оповещения за секунды, подтверждение каждого звонка, отчёт по каждому адресату. Ваш сервер, любой SIP-оператор.">
+  <meta property="og:image" content="https://sitemaster05.github.io/alertline-site/assets/og-cover.png">
+  <meta property="og:url" content="https://sitemaster05.github.io/alertline-site/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="#top" aria-label="AlertLine"><img src="assets/alertline-mark.svg" alt="" width="34" height="34"><span>Alert<b>Line</b></span></a>
+    <nav aria-label="Разделы">
+      <a href="#how">Как работает</a><a href="#features">Возможности</a><a href="#pricing">Цены</a><a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn-amber btn-sm" href="#contact">Запросить демо</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Сервер голосового оповещения</p>
+        <h1>Каждый звонок —<br><em>с&nbsp;подтверждением.</em></h1>
+        <p class="lead">AlertLine обзванивает сотрудников и население через вашего SIP-оператора, проигрывает сообщение и фиксирует, кто подтвердил получение. Работает на вашем Windows-сервере — без облака и абонентской платы.</p>
+        <div class="actions">
+          <a class="btn btn-amber" href="#contact">Запросить демо и пробный ключ</a>
+          <a class="btn btn-ghost" href="#video">Смотреть видео · 54 с</a>
+        </div>
+        <ul class="trust">
+          <li>Любой SIP-оператор</li><li>G.711 и G.729</li><li>Данные на вашем сервере</li><li>Пробный ключ 30 дней</li>
+        </ul>
+      </div>
+      <div class="hero-video" id="video">
+        <video src="assets/alertline-demo.mp4" poster="assets/alertline-demo-poster.jpg" controls playsinline preload="metadata"></video>
+        <p class="note">Демонстрация интерфейса и звонка, данные условные.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section who">
+    <div class="wrap">
+      <h2 class="h2">Кому нужен AlertLine</h2>
+      <div class="cards six">
+        <article class="card"><h3>Гражданская защита и ЧС</h3><p>Оповещение руководящего состава и населения, учебные тревоги, подтверждение доведения сигнала.</p></article>
+        <article class="card"><h3>Промышленные предприятия</h3><p>Сбор дежурной смены, аварийные сообщения, охрана труда — с отчётом, кто на связи.</p></article>
+        <article class="card"><h3>Энергетика и ЖКХ</h3><p>Предупреждения об отключениях и авариях жителям и бригадам, повторный обзвон не ответивших.</p></article>
+        <article class="card"><h3>Школы и вузы</h3><p>Срочные сообщения сотрудникам и родителям, которые дали согласие на звонки.</p></article>
+        <article class="card"><h3>Клиники</h3><p>Напоминания о приёме с подтверждением нажатием клавиши — меньше неявок.</p></article>
+        <article class="card"><h3>Интеграторы и операторы</h3><p>Готовая платформа для внедрения у ваших клиентов: установка, настройка, поддержка.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how" id="how">
+    <div class="wrap">
+      <h2 class="h2">Как это работает</h2>
+      <ol class="steps">
+        <li><span>1</span><h3>Настройте оповещение</h3><p>Сообщение (WAV или MP3), тип сценария, подразделения и точки, расписание контактов абонентов.</p></li>
+        <li><span>2</span><h3>Запустите</h3><p>Кнопкой в панели оператора — или звонком с любого телефона по коду доступа.</p></li>
+        <li><span>3</span><h3>Получите отчёт</h3><p>Кто подтвердил, кто не ответил, кому повторить. Журнал по каждому звонку и экспорт в CSV.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section features" id="features">
+    <div class="wrap">
+      <h2 class="h2">Возможности</h2>
+      <div class="cards four">
+        <article class="feat"><h3>SIP без привязки</h3><p>UDP, TCP и TLS, регистрация с Digest, несколько транков с приоритетами, работа за NAT.</p></article>
+        <article class="feat"><h3>Шесть сценариев</h3><p>Простое сообщение, с подтверждением, с ответом голосом, циклическое, циклическое с подтверждением, сирена.</p></article>
+        <article class="feat"><h3>Подтверждение нажатием</h3><p>«0» — подтвердить, «1» — прослушать ещё раз. Дополнительные варианты ответа на клавишах 2 и 3.</p></article>
+        <article class="feat"><h3>Запуск звонком</h3><p>Входящий вызов, код доступа, выбор оповещения, запуск или запись нового сообщения.</p></article>
+        <article class="feat"><h3>Структура и абоненты</h3><p>Дерево подразделений, точки оповещения, контакты, расписания, календарь выходных, импорт CSV.</p></article>
+        <article class="feat"><h3>Роли и аудит</h3><p>Операторы, роли и матрица прав. Каждый запуск и остановка записываются в журнал.</p></article>
+        <article class="feat"><h3>Надёжная служба</h3><p>Ядро работает службой Windows с автоперезапуском, диагностика и статус в реальном времени.</p></article>
+        <article class="feat"><h3>Ваши данные — у вас</h3><p>Встроенный PostgreSQL на вашем сервере. Никаких облачных сервисов и передачи списков абонентов.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs">
+    <div class="wrap specs-grid">
+      <div>
+        <h2 class="h2 left">Технические характеристики</h2>
+        <p class="muted">Всё ставится одним мастером установки: ядро, панель оператора и база данных.</p>
+      </div>
+      <dl>
+        <div><dt>Операционная система</dt><dd>Windows 10, 11 или Windows Server, 64-bit</dd></div>
+        <div><dt>База данных</dt><dd>PostgreSQL 16, встроена в установщик</dd></div>
+        <div><dt>Сигнализация</dt><dd>SIP 2.0 · UDP, TCP, TLS · Digest-аутентификация</dd></div>
+        <div><dt>Голос</dt><dd>G.711 A-law и μ-law, G.729 · RTP · DTMF RFC 2833</dd></div>
+        <div><dt>Одновременные звонки</dt><dd>По лицензии и числу каналов вашего оператора</dd></div>
+        <div><dt>Системные фразы</dt><dd>Русский, английский; ваши сообщения — на любом языке</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section pricing" id="pricing">
+    <div class="wrap">
+      <h2 class="h2">Цены</h2>
+      <p class="muted center">Разовая покупка лицензии на сервер. Обновления версии 1.x включены.</p>
+      <div class="cards three prices">
+        <article class="price">
+          <p class="tier">Standard</p><p class="amount">$490</p>
+          <ul><li>1 сервер</li><li>До 30 одновременных линий</li><li>Все сценарии и роли</li><li>Поддержка по e-mail</li></ul>
+          <a class="btn btn-ghost-dark" href="#contact">Запросить счёт</a>
+        </article>
+        <article class="price featured">
+          <p class="badge">Для организаций</p>
+          <p class="tier">Business</p><p class="amount">$1 190</p>
+          <ul><li>1 сервер</li><li>Без ограничения линий</li><li>Приоритетная поддержка 12 месяцев</li><li>Помощь с подключением оператора</li></ul>
+          <a class="btn btn-amber" href="#contact">Запросить счёт</a>
+        </article>
+        <article class="price">
+          <p class="tier">Внедрение</p><p class="amount">от $300</p>
+          <ul><li>Установка и настройка</li><li>Подключение SIP-оператора</li><li>Сценарии и структура абонентов</li><li>Обучение операторов</li></ul>
+          <a class="btn btn-ghost-dark" href="#contact">Обсудить проект</a>
+        </article>
+      </div>
+      <p class="muted center small">Поддержка и обновления после первого года — 20% стоимости лицензии в год. Пробный ключ на 30 дней — бесплатно.</p>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="wrap narrow">
+      <h2 class="h2">Вопросы</h2>
+      <details><summary>Нужен ли интернет или облачный сервис?</summary><p>Нет. AlertLine работает на вашем сервере. Наружу уходят только звонки — через выбранного вами SIP-оператора.</p></details>
+      <details><summary>С какими операторами работает?</summary><p>С любым оператором или АТС, поддерживающими SIP: по регистрации (логин и пароль) или по IP. Поддерживаются UDP, TCP и TLS.</p></details>
+      <details><summary>Сколько звонков идёт одновременно?</summary><p>Столько, сколько разрешает лицензия и сколько каналов даёт ваш оператор. Standard — до 30 линий, Business — без ограничения.</p></details>
+      <details><summary>Можно ли записать своё сообщение?</summary><p>Да: загрузите WAV или MP3 в панели оператора или запишите сообщение голосом, позвонив в систему по коду доступа.</p></details>
+      <details><summary>Что, если лицензия закончилась?</summary><p>Система не останавливается: оповещение продолжает работать в демо-режиме на двух линиях, пока вы продлеваете ключ.</p></details>
+      <details><summary>Для чего AlertLine использовать нельзя?</summary><p>Для рекламных обзвонов без согласия, мошенничества и любых звонков, запрещённых законом. Это закреплено в лицензионном соглашении.</p></details>
+      <details><summary>Как оплатить?</summary><p>Организациям — по счёту и договору банковским переводом. Пробный ключ на 30 дней выдаём бесплатно после короткой заявки.</p></details>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-box">
+      <div>
+        <h2 class="h2 left light">Запросите демо и пробный ключ</h2>
+        <p class="light-muted">Покажем систему на видеозвонке, поможем установить и подключить оператора. Пробный ключ — на 30 дней, без оплаты.</p>
+      </div>
+      <div class="contact-actions" id="contactActions"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-row">
+    <a class="brand small" href="#top"><img src="assets/alertline-mark.svg" alt="" width="26" height="26"><span>Alert<b>Line</b></span></a>
+    <p>© 2026 AlertLine · Сервер голосового оповещения</p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
