@@ -41,6 +41,9 @@ a { color: inherit; }
 .nav nav { display: flex; gap: 22px; margin-left: auto; }
 .nav nav a { text-decoration: none; color: #C9D5E6; font-size: 15px; }
 .nav nav a:hover { color: #fff; }
+.lang { color: #C9D5E6; text-decoration: none; font-size: 14px; font-weight: 600; border: 1px solid rgba(255,255,255,.25);
+  border-radius: 6px; padding: 4px 9px; }
+.lang:hover { color: #fff; border-color: rgba(255,255,255,.5); }
 
 /* hero */
 .hero { color: #fff; background: radial-gradient(1100px 600px at 15% 0%, #1E57A6 0%, var(--navy) 55%, #071428 100%); padding: 72px 0 84px; position: relative; overflow: hidden; }
@@ -132,4 +135,8 @@ a { color: inherit; }
   .specs dl div { grid-template-columns: 1fr; gap: 2px; }
   .actions .btn { width: 100%; }
   .btn { white-space: normal; text-align: center; }
+  .nav-row { gap: 10px; }
+  .nav .lang { margin-left: auto; }
+  .nav .btn-sm { white-space: nowrap; padding: 7px 12px; font-size: 13px; }
+  .brand { font-size: 19px; }
 }

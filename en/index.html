@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AlertLine — voice notification with confirmation</title>
+  <meta name="description" content="AlertLine calls your staff or residents through your SIP carrier, plays the message and records who confirmed it. Runs on your own Windows server.">
+  <meta name="theme-color" content="#0B1F3F">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <link rel="alternate" hreflang="ru" href="https://sitemaster05.github.io/alertline-site/">
+  <link rel="alternate" hreflang="en" href="https://sitemaster05.github.io/alertline-site/en/">
+  <meta property="og:title" content="AlertLine — voice notification with confirmation">
+  <meta property="og:description" content="Start an alert in seconds, get every call confirmed, see a report per recipient. Your server, any SIP carrier.">
+  <meta property="og:image" content="https://sitemaster05.github.io/alertline-site/assets/og-cover.png">
+  <meta property="og:url" content="https://sitemaster05.github.io/alertline-site/en/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="#top" aria-label="AlertLine"><img src="../assets/alertline-mark.svg" alt="" width="34" height="34"><span>Alert<b>Line</b></span></a>
+    <nav aria-label="Sections">
+      <a href="#how">How it works</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="lang" href="../" hreflang="ru" lang="ru">RU</a>
+    <a class="btn btn-amber btn-sm" href="#contact">Request a demo</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Voice notification server</p>
+        <h1>Every call —<br><em>confirmed.</em></h1>
+        <p class="lead">AlertLine calls your staff or residents through your SIP carrier, plays the message and records who confirmed it. It runs on your own Windows server — no cloud, no monthly fees.</p>
+        <div class="actions">
+          <a class="btn btn-amber" href="#contact">Request a demo and trial key</a>
+          <a class="btn btn-ghost" href="#video">Watch the video · 54 s</a>
+        </div>
+        <ul class="trust">
+          <li>Any SIP carrier</li><li>G.711 and G.729</li><li>Data stays on your server</li><li>30-day trial key</li>
+        </ul>
+      </div>
+      <div class="hero-video" id="video">
+        <video src="../assets/alertline-demo.mp4" poster="../assets/alertline-demo-poster.jpg" controls playsinline preload="metadata"></video>
+        <p class="note">Demo of the interface and a call, sample data. The video shows the Russian interface; English system prompts are included.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section who">
+    <div class="wrap">
+      <h2 class="h2">Who uses AlertLine</h2>
+      <div class="cards six">
+        <article class="card"><h3>Civil protection</h3><p>Alert key staff and residents, run drills and prove that every warning was delivered.</p></article>
+        <article class="card"><h3>Industrial sites</h3><p>Call in the duty shift, send emergency messages and see who is reachable right now.</p></article>
+        <article class="card"><h3>Energy and utilities</h3><p>Warn crews and residents about outages and accidents; unanswered calls are retried.</p></article>
+        <article class="card"><h3>Schools and universities</h3><p>Urgent messages to staff and to parents who agreed to receive calls.</p></article>
+        <article class="card"><h3>Clinics</h3><p>Appointment reminders confirmed with a key press — fewer no-shows.</p></article>
+        <article class="card"><h3>Integrators and carriers</h3><p>A ready platform to deploy for your customers: installation, setup and support.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how" id="how">
+    <div class="wrap">
+      <h2 class="h2">How it works</h2>
+      <ol class="steps">
+        <li><span>1</span><h3>Set up an alert</h3><p>Message (WAV or MP3), scenario type, departments and locations, contact schedules.</p></li>
+        <li><span>2</span><h3>Start it</h3><p>With one button in the operator console — or by calling in from any phone with an access code.</p></li>
+        <li><span>3</span><h3>Get the report</h3><p>Who confirmed, who did not answer, who to call again. A log of every call with CSV export.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section features" id="features">
+    <div class="wrap">
+      <h2 class="h2">Features</h2>
+      <div class="cards four">
+        <article class="feat"><h3>Any SIP carrier</h3><p>UDP, TCP and TLS, Digest registration, several trunks with priorities, works behind NAT.</p></article>
+        <article class="feat"><h3>Six scenarios</h3><p>Plain message, with confirmation, with a recorded reply, looped, looped with confirmation, siren.</p></article>
+        <article class="feat"><h3>Key-press confirmation</h3><p>"0" confirms, "1" repeats the message. Extra answer options on keys 2 and 3.</p></article>
+        <article class="feat"><h3>Start by phone</h3><p>Inbound call, access code, choose the alert — start it or record a new message.</p></article>
+        <article class="feat"><h3>Structure and contacts</h3><p>Department tree, alert locations, contacts, schedules, holiday calendar, CSV import.</p></article>
+        <article class="feat"><h3>Roles and audit</h3><p>Operators, roles and a permission matrix. Every start and stop is logged.</p></article>
+        <article class="feat"><h3>Reliable service</h3><p>The core runs as a Windows service with automatic restart, live status and diagnostics.</p></article>
+        <article class="feat"><h3>Your data stays with you</h3><p>Embedded PostgreSQL on your server. No cloud services, no contact lists leave your network.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs">
+    <div class="wrap specs-grid">
+      <div>
+        <h2 class="h2 left">Specifications</h2>
+        <p class="muted">One setup wizard installs the core, the operator console and the database.</p>
+      </div>
+      <dl>
+        <div><dt>Operating system</dt><dd>Windows 10, 11 or Windows Server, 64-bit</dd></div>
+        <div><dt>Database</dt><dd>PostgreSQL 16, included in the installer</dd></div>
+        <div><dt>Signalling</dt><dd>SIP 2.0 · UDP, TCP, TLS · Digest authentication</dd></div>
+        <div><dt>Voice</dt><dd>G.711 A-law and μ-law, G.729 · RTP · DTMF RFC 2833</dd></div>
+        <div><dt>Concurrent calls</dt><dd>Set by the licence and by your carrier's channels</dd></div>
+        <div><dt>System prompts</dt><dd>English and Russian; your own messages in any language</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section pricing" id="pricing">
+    <div class="wrap">
+      <h2 class="h2">Pricing</h2>
+      <p class="muted center">One-time licence per server. Updates within version 1.x included.</p>
+      <div class="cards three prices">
+        <article class="price">
+          <p class="tier">Standard</p><p class="amount">$490</p>
+          <ul><li>1 server</li><li>Up to 30 concurrent lines</li><li>All scenarios and roles</li><li>E-mail support</li></ul>
+          <a class="btn btn-ghost-dark" href="#contact">Request an invoice</a>
+        </article>
+        <article class="price featured">
+          <p class="badge">For organisations</p>
+          <p class="tier">Business</p><p class="amount">$1,190</p>
+          <ul><li>1 server</li><li>Unlimited lines</li><li>12 months priority support</li><li>Help connecting your carrier</li></ul>
+          <a class="btn btn-amber" href="#contact">Request an invoice</a>
+        </article>
+        <article class="price">
+          <p class="tier">Deployment</p><p class="amount">from $300</p>
+          <ul><li>Installation and setup</li><li>SIP carrier connection</li><li>Scenarios and contact structure</li><li>Operator training</li></ul>
+          <a class="btn btn-ghost-dark" href="#contact">Discuss a project</a>
+        </article>
+      </div>
+      <p class="muted center small">Support and updates after the first year — 20% of the licence price per year. 30-day trial key — free.</p>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="wrap narrow">
+      <h2 class="h2">FAQ</h2>
+      <details><summary>Does it need the internet or a cloud service?</summary><p>No. AlertLine runs on your server. Only the calls leave your network, through the SIP carrier you choose.</p></details>
+      <details><summary>Which carriers does it work with?</summary><p>Any carrier or PBX that supports SIP, with registration (login and password) or IP authentication, over UDP, TCP or TLS.</p></details>
+      <details><summary>How many calls run at once?</summary><p>As many as your licence allows and your carrier provides channels for. Standard — up to 30 lines, Business — unlimited.</p></details>
+      <details><summary>Can I record my own message?</summary><p>Yes: upload WAV or MP3 in the operator console, or record it by calling the system with an access code.</p></details>
+      <details><summary>What happens when the licence expires?</summary><p>Alerting does not stop: the system keeps working in demo mode on two lines while you renew the key.</p></details>
+      <details><summary>What must AlertLine not be used for?</summary><p>Unsolicited marketing calls, fraud and any calls the law forbids. This is part of the licence agreement.</p></details>
+      <details><summary>How do I pay?</summary><p>Organisations pay by invoice and contract via bank transfer. The 30-day trial key is free after a short request.</p></details>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-box">
+      <div>
+        <h2 class="h2 left light">Request a demo and trial key</h2>
+        <p class="light-muted">We will show the system on a video call and help you install it and connect your carrier. Trial key — 30 days, free of charge.</p>
+      </div>
+      <div class="contact-actions" id="contactActions"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-row">
+    <a class="brand small" href="#top"><img src="../assets/alertline-mark.svg" alt="" width="26" height="26"><span>Alert<b>Line</b></span></a>
+    <p>© 2026 AlertLine · Voice notification server</p>
+  </div>
+</footer>
+<script src="../app.js" defer></script>
+</body>
+</html>
